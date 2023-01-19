@@ -3,7 +3,7 @@ import { Box, styled, Typography, Link } from '@mui/material';
 import { GitHub, Instagram, Email } from '@mui/icons-material';
 
 const Banner = styled(Box)`
-    background-image: url(http://mrtaba.ir/image/bg2.jpg);
+    background-image: url(https://media.istockphoto.com/id/1049658692/photo/contact-us.jpg?s=170667a&w=0&k=20&c=y7cjbrYFf6GHCVPWcNFB6Dj8fhSyYWCofqEbTDPVqFE=);
     width: 100%;
     height: 50vh;
     background-position: left 0px top -100px;
