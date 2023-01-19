@@ -2,6 +2,7 @@ import './App.css';
 import DataProvider from './context/DataProvider';
 import {BrowserRouter, Routes, Route, Navigate, Outlet} from 'react-router-dom';
 import { useState } from 'react';
+
 //components
 import Login from './components/account/Login';
 import Home from '../src/components/home/Home'
@@ -11,7 +12,7 @@ import DetailView from './components/details/DetailVeiw';
 import Update from './components/create/Update';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
-
+// require('dotenv').config();
 const PrivateRoute = ({isAuthenticated,...props}) =>{
   return isAuthenticated ? 
     <>

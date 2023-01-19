@@ -1,9 +1,10 @@
 import axios from 'axios';
-
+// import dotenv from 'dotenv';
 import { API_NOTIFICATION_MESSAGES, SERVICE_URLS } from '../constants/config';
 import { getAccessToken,getType} from '../utils/common-utils';
-
-const API_URL = '';
+// dotenv.config();
+const API_URL = `${process.env.REACT_APP_SERVER_URL}`||'';
+console.log(API_URL);
 
 const axiosInstance = axios.create({
     baseURL: API_URL,
